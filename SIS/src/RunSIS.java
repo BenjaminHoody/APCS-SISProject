@@ -27,6 +27,7 @@ public class RunSIS {
 				switch (ChangeGrades.gradesOrSchedulePrompt()) {
 				case 1: ChangeGrades.changeGrades(); break;
 				case 2: ChangeGrades.switchClasses(); break;
+				case 3: ChangeGrades.changeAllGrades(); break;
 				}
 				break;
 			case 3: 
